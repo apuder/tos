@@ -49,11 +49,11 @@
 
 | RS-232 Connector            | GPIO Pin              | TOS Connection                                                | Description             |
 |-----------------------------|-----------------------|---------------------------------------------------------------|-------------------------|
-| 1                           |                       | GND                                                           | Ground                  |
-| 2                           |                       | NC                                                            | NC                      |
+| 1                           |                       | NC                                                            | NC                      |
+| 2                           |                       | MAX232 Pin 13                                                 | RX                      |
 | 3                           |                       | MAX232 Pin 14                                                 | TX                      |
-| 4                           |                       | MAX232 Pin 13                                                 | RX                      |
-| 5                           |                       | NC                                                            | NC                      |
+| 4                           |                       | NC                                                            | NC                      |
+| 5                           |                       | GND                                                           | Ground                  |
 | 6                           |                       | NC                                                            | NC                      |
 | 7                           |                       | Jumpered to RS232 Pin 8                                       | Jumpered to RS232 Pin 8 |
 | 8                           |                       | Jumpered to RS232 Pin 7                                       | Jumpered to RS232 Pin 7 |
@@ -76,7 +76,7 @@
 | 10                          |                       | GND                                                           | Ground                  |
 | 11                          |                       | PI Physical pin 8                                             | TXTTL                   |
 | 12                          |                       | Pi Physical Pin 10                                            | RXTTL                   |
-| 13                          |                       | RS232 Pin 4                                                   | RX                      |
+| 13                          |                       | RS232 Pin 2                                                   | RX                      |
 | 14                          |                       | RS232 Pin 3                                                   | TX                      |
 | 15                          |                       | GND                                                           | Ground                  |
 | 16                          |                       | 3.3v                                                          | 3.3v                    |
