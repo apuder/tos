@@ -1,11 +1,11 @@
-# TOS Board Connection Map (v1.1)
+# TOS Board Connection Map (v2.0)
 
 ## Raspberry Pi Connecter
 | Raspberry Pi Physical Pin   | GPIO Pin              | TOS Connection                                                | Description             |
 |-----------------------------|-----------------------|---------------------------------------------------------------|-------------------------|
 | 1                           | 3.3v                  | 3.3v line (jumpered with pi pin 1)                            | 3.3v                    |
 | 2                           | 5v                    | 5v line (jumpered with pin 4)                                 | 5v                      |
-| 3                           | GPIO 2 / SDA1         | Red LED through R1 (330 Ohm)                                  | LED Red                 |
+| 3                           | GPIO 2 / SDA1         | NC                                                            | NC                      |
 | 4                           | 5v                    | 5v line (jumpered with pin 2)                                 | 5v                      |
 | 5                           | GPIO 3 / SCL1         | NC                                                            | NC                      |
 | 6                           | GND                   | GND (all grounds jumpered)                                    | Ground                  |
@@ -14,7 +14,7 @@
 | 9                           | GND                   | GND (all grounds jumpered)                                    | Ground                  |
 | 10                          | GPIO 15 / RXD         | MAX232 Pin 12                                                 | RX TTL                  |
 | 11                          | GPIO 17               | Blue LED through R3 (220 Ohm)                                 | LED Blue                |
-| 12                          | GPIO 18               | NC                                                            | NC                      |
+| 12                          | GPIO 18               | Red LED through R1 (330 Ohm)                                  | LED Red                 |
 | 13                          | GPIO 27               | Green LED through R2 (220 Ohm)                                | LED Green               |
 | 14                          | GND                   | GND (all grounds jumpered)                                    | Ground                  |
 | 15                          | GPIO 22               | SW1 - Pull up to 3.3v through R6 (4.7K Ohm)                   | Button                  |
