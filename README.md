@@ -1,4 +1,4 @@
-# TOS Board Connection Map (v2.1)
+# TOS Board Connection Map (v2.2)
 
 ## Raspberry Pi Connecter
 | Raspberry Pi Physical Pin | GPIO Pin              | TOS Connection                              | Description       |
@@ -10,9 +10,9 @@
 | 5                         | GPIO 3 / SCL1         | NC                                          | NC                |
 | 6                         | GND                   | GND (all grounds jumpered)                  | Ground            |
 | 7                         | GPIO 4                | NC                                          | NC                |
-| 8                         | GPIO 14 / TXD         | MAX232 Pin 11                               | TX TTL            |
+| 8                         | GPIO 14 / TXD         | MAX3232 Pin 11                               | TX TTL            |
 | 9                         | GND                   | GND (all grounds jumpered)                  | Ground            |
-| 10                        | GPIO 15 / RXD         | MAX232 Pin 12                               | RX TTL            |
+| 10                        | GPIO 15 / RXD         | MAX3232 Pin 12                               | RX TTL            |
 | 11                        | GPIO 17               | Blue LED through R3 (220 Ohm)               | LED Blue          |
 | 12                        | GPIO 18               | Red LED through R1 (330 Ohm)                | LED Red           |
 | 13                        | GPIO 27               | Green LED through R2 (220 Ohm)              | LED Green         |
@@ -50,8 +50,8 @@
 | RS-232 Connector | GPIO Pin | TOS Connection          | Description             |
 | ---------------- | -------- | ----------------------- | ----------------------- |
 | 1                |          | NC                      | NC                      |
-| 2                |          | MAX232 Pin 13           | RX                      |
-| 3                |          | MAX232 Pin 14           | TX                      |
+| 2                |          | MAX3232 Pin 13          | RX                      |
+| 3                |          | MAX3232 Pin 14          | TX                      |
 | 4                |          | NC                      | NC                      |
 | 5                |          | GND                     | Ground                  |
 | 6                |          | NC                      | NC                      |
@@ -60,26 +60,26 @@
 | 9                |          | NC                      | NC                      |
 
 
-## MAX232 chip
+## MAX3232 chip
 
-| MAX232 | GPIO Pin | TOS Connection              | Description |
-| ------ | -------- | --------------------------- | ----------- |
-| 1      |          | C1+ (0.1uf) to MAX232 pin 3 |             |
-| 2      |          | C4+ (0.1uf) to GND          |             |
-| 3      |          | C1- (0.1uf) to MAX232 pin 1 |             |
-| 4      |          | C2+ (0.1uf) to MAX232 pin 5 |             |
-| 5      |          | C2- (0.1uf) to MAX232 pin 4 |             |
-| 6      |          | C3- (0.1uf) to GND          |             |
-| 7      |          | NC                          | NC          |
-| 8      |          | NC                          | NC          |
-| 9      |          | NC                          | NC          |
-| 10     |          | GND                         | Ground      |
-| 11     |          | PI Physical pin 8           | TXTTL       |
-| 12     |          | Pi Physical Pin 10          | RXTTL       |
-| 13     |          | RS232 Pin 2                 | RX          |
-| 14     |          | RS232 Pin 3                 | TX          |
-| 15     |          | GND                         | Ground      |
-| 16     |          | 5.0v                        | 5.0v        |
+| MAX3232 | GPIO Pin | TOS Connection               | Description |
+| ------- | -------- | ---------------------------- | ----------- |
+| 1       |          | C1+ (0.1uf) to MAX3232 pin 3 |             |
+| 2       |          | C4+ (0.1uf) to GND           |             |
+| 3       |          | C1- (0.1uf) to MAX3232 pin 1 |             |
+| 4       |          | C2+ (0.1uf) to MAX3232 pin 5 |             |
+| 5       |          | C2- (0.1uf) to MAX3232 pin 4 |             |
+| 6       |          | C3- (0.1uf) to GND           |             |
+| 7       |          | NC                           | NC          |
+| 8       |          | NC                           | NC          |
+| 9       |          | NC                           | NC          |
+| 10      |          | GND                          | Ground      |
+| 11      |          | PI Physical pin 8            | TXTTL       |
+| 12      |          | Pi Physical Pin 10           | RXTTL       |
+| 13      |          | RS232 Pin 2                  | RX          |
+| 14      |          | RS232 Pin 3                  | TX          |
+| 15      |          | GND                          | Ground      |
+| 16      |          | 3.3v                         | 3.3v        |
 
 
 ## PMOD Connecter
